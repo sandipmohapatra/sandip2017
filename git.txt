@@ -1,0 +1,50 @@
+Git and GitHub
+------------------------------
+GitHub is a central Reposistory.(private/public)
+Git is a local Reposistory.
+--------------------------------------------------------
+Git is a distributed revision control and source code management system.
+It is used to handle java and non java projects.
+uses :-
+1)allows developers to work simultaneously.
+2)doesnot allow overwrite each other's change.
+3)Maintains history of every version.It is a version control tool.
+4)git provides security (SHA1)
+5)It is fast,free and open source.
+--------------------------------------------------------------------------------------------------------
+step 1:- https://github.com/
+username :- ventak2019
+passwword:- ventak2018
+email :-venkataswamy.meka@gmail.com
+create an account.
+--------------------------------------------------------------------------
+step 2:- Git download and install
+
+https://git-scm.com/download
+----------------------------------------------------------------------------
+step 3:-create a folder go inside the folder ,right click ->GIT GUI here
+
+repository --->Git Bash
+-----------------------------------------
+step 4:- link git with github
+  git remote add origin "https://github.com/sandipmohapatra/sandip1.git"
+-------------------------------------------------------
+
+step 5:- git pull origin master
+-----------------------------------------------------------------
+step 6:- git status :- tells you which files are added to index and are ready commit.
+------------------------------------------------------------------
+step 7:- git add <list of file name> :- tells you to add files to your index.
+---------------------------------------------------------------------------
+step 8:-git commit -m "this is a message" :- the files are added to git.
+------------------------------------------------------------------------------------ 
+ 
+
+
+
+
+
+
+
+
+
