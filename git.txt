@@ -38,9 +38,38 @@ step 7:- git add <list of file name> :- tells you to add files to your index.
 ---------------------------------------------------------------------------
 step 8:-git commit -m "this is a message" :- the files are added to git.
 ------------------------------------------------------------------------------------ 
+step 9:- git branch firstbranch (to create branch)
+------------------------------------------------------------------
+step 10:- git checkout firstbranch
+------------------------------------------------------------
+step 11:- git checkout master 
+then 
+git merge firstbranch
+-------------------------------------------------------------------------
+to push the data
+-------------------------------
+step 1:ssh-keygen
+------------------------------------
+step 2:cat /c/Users/sandip/.ssh/id_rsa.pub
+------------------------------------------
+step 3:copy the ssh key and paste it in the setting --->click on new ssh key ------->paste the key
+-----------------------------------------------------
+step 4:- ssh -T git@github.com
+------------------------------------------
+step 5:- refresh the github (the key will be green color)
+--------------------------------------------
+step 6:- git checkout firstbranch/master/secondbranch
+---------------------------------------
+step 7:- git push origin master
+-----------------------------------------------------
  
 
-
+to see the history
+---------------------------------
+git log --->this will show the history of the branch
+--------------------------------------------------------------
+git log <filename> ---->it will show the history of the file.
+--------------------------------------------------
 
 
 
